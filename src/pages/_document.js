@@ -33,6 +33,13 @@ export default function Document() {
 
         {/* Theme color for mobile browsers */}
         <meta name="theme-color" content="#3b82f6" />
+
+        {/* Analytics tracking */}
+        <script
+          defer
+          src="https://laplantedevanalytics.netlify.app/script.js"
+          data-website-id="32d0befc-9d39-4d6e-bb22-a2c1c8f832c2"
+        ></script>
       </Head>
       <body>
         <Main />
